@@ -43,3 +43,6 @@ go-build/
 *.tmp
 *.temp
 *.log
+
+# Documentation
+AdminGuide.md
