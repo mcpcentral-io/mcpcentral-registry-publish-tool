@@ -1,0 +1,18 @@
+{
+    "description": "Test MCP server for registry submission testing",
+    "name": "io.github.test-user/test-mcp-server",
+    "packages": [
+        {
+            "registry_name": "npm",
+            "name": "@test-user/test-mcp-server",
+            "version": "1.0.0"
+        }
+    ],
+    "repository": {
+        "url": "https://github.com/test-user/test-mcp-server",
+        "source": "github"
+    },
+    "version_detail": {
+        "version": "1.0.0"
+    }
+}
