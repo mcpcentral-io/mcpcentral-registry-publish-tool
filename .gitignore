@@ -1,5 +1,9 @@
 # Authentication tokens
 .mcpregistry_token
+.claude
+
+# Configuration files
+server.json
 
 # OS generated files
 .DS_Store

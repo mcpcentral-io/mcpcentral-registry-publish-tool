@@ -1,0 +1,19 @@
+{
+    "description": "Test server for debugging",
+    "name": "io.github.Cam10001110101/test-debug-server",
+    "packages": [
+        {
+            "registry_name": "npm",
+            "name": "test-debug-package",
+            "version": "0.0.1",
+            "environment_variables": []
+        }
+    ],
+    "repository": {
+        "url": "https://github.com/Cam10001110101/test-repo",
+        "source": "github"
+    },
+    "version_detail": {
+        "version": "0.0.1"
+    }
+}

@@ -1,51 +1,28 @@
 {
-    "description": "Test MCP server for registry submission testing",
-    "name": "io.github.test-user/test-mcp-server",
+    "description": "Advanced topic research using web search and LLM synthesis, powered by a local MCP server. Research any topic using configurable search APIs (Perplexity, Tavily) and local LLM models with customizable research parameters.",
+    "name": "io.github.Cam10001110101/mcp-server-ollama-deep-researcher",
     "packages": [
         {
             "registry_name": "npm",
-            "name": "@test-user/test-mcp-server",
-            "version": "1.0.0",
-            "package_arguments": [
+            "name": "ollama-deep-researcher-mcp",
+            "version": "2.0.0",
+            "environment_variables": [
                 {
-                    "description": "API endpoint URL for the test server",
-                    "is_required": true,
-                    "format": "string",
-                    "value": "https://api.test-mcp-server.com/v1",
-                    "default": "https://api.test-mcp-server.com/v1",
-                    "type": "positional",
-                    "value_hint": "https://api.test-mcp-server.com/v1"
+                    "description": "API key for Tavily search service",
+                    "name": "TAVILY_API_KEY"
                 },
                 {
-                    "description": "Optional configuration file path",
-                    "is_required": false,
-                    "format": "string",
-                    "value": "./config.json",
-                    "default": "./config.json",
-                    "type": "named",
-                    "value_hint": "./config.json"
+                    "description": "API key for Perplexity search service",
+                    "name": "PERPLEXITY_API_KEY"
                 }
             ]
         }
     ],
     "repository": {
-        "url": "https://github.com/test-user/test-mcp-server",
-        "source": "github",
-        "id": "123456789"
+        "url": "https://github.com/Cam10001110101/mcp-server-ollama-deep-researcher",
+        "source": "github"
     },
     "version_detail": {
-        "version": "1.0.0",
-        "release_date": "2025-01-04T18:00:00Z",
-        "is_latest": true
-    },
-    "remotes": [
-        {
-            "transport_type": "sse",
-            "url": "https://sse.test-mcp-server.com/events"
-        },
-        {
-            "transport_type": "stdio",
-            "url": "stdio://test-mcp-server"
-        }
-    ]
+        "version": "2.0.0"
+    }
 }
